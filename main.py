@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 
 import seed_func
-from logica_negocio import categoria
+from logica_negocio import categoria, produto
 
 """
 alembic init migrations

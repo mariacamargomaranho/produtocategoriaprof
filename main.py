@@ -42,6 +42,7 @@ if __name__ == "__main__":
         elif opcao == 4:
             categoria.remover(motor)
         elif opcao == 5:
+            produto.incluir (motor)
             pass
         elif opcao == 6:
             pass

@@ -45,10 +45,22 @@ if __name__ == "__main__":
             produto.incluir (motor)
             pass
         elif opcao == 6:
+            produto.listar(motor)
             pass
         elif opcao == 7:
+            produto.alterar(motor)
             pass
         elif opcao == 8:
+            produto.remover(motor)
+            pass
+        elif opcao == 9:
+            produto.comprar(motor)
+            pass
+        elif opcao == 10:
+            produto.vender(motor)
+            pass
+        elif opcao == 11:
+            produto.sem_estoque(motor)
             pass
         elif opcao == 0:
             exit(0)
